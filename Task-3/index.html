@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Welcome Page -->
+    <div class="welcome-container" id="welcomeContainer">
+        <h1 class="welcome-title">Bubb<span>le</span></h1>
+        <p class="welcome-subtitle">Bubble Interface Calculator</p>
+        <button class="get-started-btn" id="getStartedBtn">
+            <span class="btn-text">Begin Fusion</span>
+            <span class="glass-drips"></span>
+        </button>
+    </div>
+
+    <!-- Calculator -->
+    <div class="calculator-container" id="calculatorContainer">
+        <div class="glass-layer"></div>
+        <div class="glass-reflections"></div>
+        
+        <div class="calculator-header">
+            <h2 class="calculator-title">Bubb<span>le</span></h2>
+        </div>
+        
+        <div class="calculator-display">
+            <div class="display-glass"></div>
+            <div class="previous-operand" id="previousOperand"></div>
+            <div class="current-operand" id="currentOperand">0</div>
+        </div>
+        
+        <div class="calculator-buttons">
+            <button class="calculator-btn clear-btn" id="clear">
+                <span class="btn-text">AC</span>
+                <span class="glass-drips"></span>
+            </button>
+            <button class="calculator-btn delete-btn" id="delete">
+                <span class="btn-text">DEL</span>
+                <span class="glass-drips"></span>
+            </button>
+            <button class="calculator-btn operator-btn" id="percent">
+                <span class="btn-text">%</span>
+                <span class="glass-drips"></span>
+            </button>
+            <button class="calculator-btn operator-btn" id="divide">
+                <span class="btn-text">÷</span>
+                <span class="glass-drips"></span>
+            </button>
+            
+            <button class="calculator-btn" id="seven">
+                <span class="btn-text">7</span>
+                <span class="glass-drips"></span>
+            </button>
+            <button class="calculator-btn" id="eight">
+                <span class="btn-text">8</span>
+                <span class="glass-drips"></span>
+            </button>
+            <button class="calculator-btn" id="nine">
+                <span class="btn-text">9</span>
+                <span class="glass-drips"></span>
+            </button>
+            <button class="calculator-btn operator-btn" id="multiply">
+                <span class="btn-text">×</span>
+                <span class="glass-drips"></span>
+            </button>
+            
+            <button class="calculator-btn" id="four">
+                <span class="btn-text">4</span>
+                <span class="glass-drips"></span>
+            </button>
+            <button class="calculator-btn" id="five">
+                <span class="btn-text">5</span>
+                <span class="glass-drips"></span>
+            </button>
+            <button class="calculator-btn" id="six">
+                <span class="btn-text">6</span>
+                <span class="glass-drips"></span>
+            </button>
+            <button class="calculator-btn operator-btn" id="subtract">
+                <span class="btn-text">-</span>
+                <span class="glass-drips"></span>
+            </button>
+            
+            <button class="calculator-btn" id="one">
+                <span class="btn-text">1</span>
+                <span class="glass-drips"></span>
+            </button>
+            <button class="calculator-btn" id="two">
+                <span class="btn-text">2</span>
+                <span class="glass-drips"></span>
+            </button>
+            <button class="calculator-btn" id="three">
+                <span class="btn-text">3</span>
+                <span class="glass-drips"></span>
+            </button>
+            <button class="calculator-btn operator-btn" id="add">
+                <span class="btn-text">+</span>
+                <span class="glass-drips"></span>
+            </button>
+            
+            <button class="calculator-btn span-2" id="zero">
+                <span class="btn-text">0</span>
+                <span class="glass-drips"></span>
+            </button>
+            <button class="calculator-btn" id="decimal">
+                <span class="btn-text">.</span>
+                <span class="glass-drips"></span>
+            </button>
+            <button class="calculator-btn equals-btn" id="equals">
+                <span class="btn-text">=</span>
+                <span class="glass-drips"></span>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
